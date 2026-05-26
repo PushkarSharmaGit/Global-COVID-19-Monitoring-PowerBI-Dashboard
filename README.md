@@ -18,16 +18,16 @@ An interactive Power BI dashboard built to monitor and analyze the global spread
 ## 📊 Dashboard Features
 
 ### KPI Cards
-- Total Population
-- Total Cases
-- Total Deaths
-- Total Recovered
-- Total New Cases
-- Total Serious/Critical Cases
+- Total Population: **6bn**
+- Total Cases: **19M**
+- Total Deaths: **712.99K**
+- Total Recovered: **12.07M**
+- Total New Cases: **7.92K**
+- Total Serious/Critical: **65.19K**
 
 ### Visualizations
-- **Clustered Bar Chart** — Total Cases by Country/Region
-- **Pie Chart** — Total Cases by Continent
+- **Clustered Bar Chart** — Total Cases by Country/Region (USA: 5M, Brazil: 2.9M, India: 2M, Russia: 0.9M)
+- **Pie Chart** — Total Cases by Continent (North America: 30.88%, Asia: 24.47%, South America: 23.7%, Europe: 15.56%)
 - **Area Chart** — Total Cases vs Total Recovered by Continent
 - **Line and Clustered Column Chart** — New Cases and New Deaths comparison
 - **Ribbon Chart** — Total Recovered by Continent
@@ -37,10 +37,11 @@ An interactive Power BI dashboard built to monitor and analyze the global spread
 ---
 
 ## 🔍 Key Insights
-- South America accounted for **100% of cases** in the filtered view with **5M total cases** and **3.12M recoveries**
-- **Brazil** led South America with **2.9M cases**, followed by Peru (0.5M) and Chile (0.4M)
-- Total deaths stood at **154.89K** with **14.30K serious/critical** cases across the region
-- The dashboard allows dynamic filtering by continent and country for granular analysis
+- **USA** led globally with **5M total cases**, followed by Brazil (2.9M) and India (2.0M)
+- **North America** had the highest share of total cases at **30.88%**, closely followed by Asia at **24.47%**
+- Global total deaths reached **712.99K** with **65.19K serious/critical** cases
+- **Asia** recorded the highest total recoveries among all continents
+- Africa and Australia/Oceania had significantly lower case counts and near-zero recoveries in comparison
 
 ---
 
@@ -48,6 +49,7 @@ An interactive Power BI dashboard built to monitor and analyze the global spread
 - Cleaned and transformed raw Worldometer data using **Power Query**
 - Handled missing values and standardized column formats
 - Created custom **DAX measures** for KPI calculations including recovery rate and case distribution
+- Converted population display units to Billions for cleaner card visuals
 
 ---
 
